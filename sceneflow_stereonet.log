@@ -1,0 +1,939 @@
+argv: ['--model', 'stereonet', '--logdir', 'results/sceneflow_stereonet']
+################################  args  ################################
+model     	stereonet                     	<class 'str'>       
+maxdisp   	192                           	<class 'int'>       
+dataset   	sceneflow                     	<class 'str'>       
+datapath  	/data/luming/scene/           	<class 'str'>       
+test_dataset	sceneflow                     	<class 'str'>       
+test_datapath	/data/luming/scene/           	<class 'str'>       
+trainlist 	./filenames/sceneflow_train.txt	<class 'str'>       
+testlist  	./filenames/sceneflow_test.txt	<class 'str'>       
+lr        	0.001                         	<class 'float'>     
+batch_size	16                            	<class 'int'>       
+test_batch_size	8                             	<class 'int'>       
+epochs    	16                            	<class 'int'>       
+lrepochs  	10,12,14,16:2                 	<class 'str'>       
+logdir    	results/sceneflow_stereonet   	<class 'str'>       
+loadckpt  	None                          	<class 'NoneType'>  
+resume    	False                         	<class 'bool'>      
+seed      	1                             	<class 'int'>       
+summary_freq	50                            	<class 'int'>       
+mode      	train                         	<class 'str'>       
+crop_height	256                           	<class 'int'>       
+crop_width	512                           	<class 'int'>       
+test_crop_height	512                           	<class 'int'>       
+test_crop_width	960                           	<class 'int'>       
+########################################################################
+creating new summary file
+Number of model parameters: 624612
+start at epoch 0
+Let's use 4 GPUs!
+Epoch 0/16, Iter 0/2215, lr 0.00100, train loss = 234.937, time = 8.897
+Epoch 0/16, Iter 50/2215, lr 0.00100, train loss = 63.177, time = 1.368
+Epoch 0/16, Iter 100/2215, lr 0.00100, train loss = 39.718, time = 1.108
+Epoch 0/16, Iter 150/2215, lr 0.00100, train loss = 52.184, time = 1.425
+Epoch 0/16, Iter 200/2215, lr 0.00100, train loss = 45.855, time = 1.218
+Epoch 0/16, Iter 250/2215, lr 0.00100, train loss = 38.950, time = 1.402
+Epoch 0/16, Iter 300/2215, lr 0.00100, train loss = 33.241, time = 1.301
+Epoch 0/16, Iter 350/2215, lr 0.00100, train loss = 36.362, time = 1.349
+Epoch 0/16, Iter 400/2215, lr 0.00100, train loss = 23.330, time = 1.412
+Epoch 0/16, Iter 450/2215, lr 0.00100, train loss = 29.960, time = 1.413
+Epoch 0/16, Iter 500/2215, lr 0.00100, train loss = 28.452, time = 1.416
+Epoch 0/16, Iter 550/2215, lr 0.00100, train loss = 32.940, time = 1.448
+Epoch 0/16, Iter 600/2215, lr 0.00100, train loss = 45.977, time = 1.228
+Epoch 0/16, Iter 650/2215, lr 0.00100, train loss = 34.697, time = 1.451
+Epoch 0/16, Iter 700/2215, lr 0.00100, train loss = 24.782, time = 1.294
+Epoch 0/16, Iter 750/2215, lr 0.00100, train loss = 21.399, time = 1.348
+Epoch 0/16, Iter 800/2215, lr 0.00100, train loss = 23.581, time = 1.455
+Epoch 0/16, Iter 850/2215, lr 0.00100, train loss = 21.478, time = 1.462
+Epoch 0/16, Iter 900/2215, lr 0.00100, train loss = 26.532, time = 1.470
+Epoch 0/16, Iter 950/2215, lr 0.00100, train loss = 21.211, time = 1.433
+Epoch 0/16, Iter 1000/2215, lr 0.00100, train loss = 25.963, time = 1.352
+Epoch 0/16, Iter 1050/2215, lr 0.00100, train loss = 29.961, time = 1.345
+Epoch 0/16, Iter 1100/2215, lr 0.00100, train loss = 14.627, time = 1.455
+Epoch 0/16, Iter 1150/2215, lr 0.00100, train loss = 19.973, time = 1.373
+Epoch 0/16, Iter 1200/2215, lr 0.00100, train loss = 36.406, time = 1.410
+Epoch 0/16, Iter 1250/2215, lr 0.00100, train loss = 21.054, time = 1.218
+Epoch 0/16, Iter 1300/2215, lr 0.00100, train loss = 17.132, time = 1.206
+Epoch 0/16, Iter 1350/2215, lr 0.00100, train loss = 21.004, time = 1.289
+Epoch 0/16, Iter 1400/2215, lr 0.00100, train loss = 17.737, time = 1.230
+Epoch 0/16, Iter 1450/2215, lr 0.00100, train loss = 23.707, time = 1.447
+Epoch 0/16, Iter 1500/2215, lr 0.00100, train loss = 25.047, time = 1.361
+Epoch 0/16, Iter 1550/2215, lr 0.00100, train loss = 13.095, time = 1.192
+Epoch 0/16, Iter 1600/2215, lr 0.00100, train loss = 18.461, time = 1.056
+Epoch 0/16, Iter 1650/2215, lr 0.00100, train loss = 22.386, time = 1.238
+Epoch 0/16, Iter 1700/2215, lr 0.00100, train loss = 19.873, time = 1.148
+Epoch 0/16, Iter 1750/2215, lr 0.00100, train loss = 22.629, time = 1.046
+Epoch 0/16, Iter 1800/2215, lr 0.00100, train loss = 24.322, time = 1.258
+Epoch 0/16, Iter 1850/2215, lr 0.00100, train loss = 14.971, time = 1.321
+Epoch 0/16, Iter 1900/2215, lr 0.00100, train loss = 23.426, time = 1.113
+Epoch 0/16, Iter 1950/2215, lr 0.00100, train loss = 12.477, time = 1.224
+Epoch 0/16, Iter 2000/2215, lr 0.00100, train loss = 20.859, time = 1.217
+Epoch 0/16, Iter 2050/2215, lr 0.00100, train loss = 24.111, time = 1.084
+Epoch 0/16, Iter 2100/2215, lr 0.00100, train loss = 22.816, time = 1.292
+Epoch 0/16, Iter 2150/2215, lr 0.00100, train loss = 16.993, time = 1.278
+Epoch 0/16, Iter 2200/2215, lr 0.00100, train loss = 20.437, time = 1.093
+Epoch 0/16, Iter 0/547, test loss = 0.000, time = 1.454602
+Epoch 0/16, Iter 50/547, test loss = 0.000, time = 0.518368
+Epoch 0/16, Iter 100/547, test loss = 0.000, time = 0.564990
+Epoch 0/16, Iter 150/547, test loss = 0.000, time = 0.537946
+Epoch 0/16, Iter 200/547, test loss = 0.000, time = 0.570375
+Epoch 0/16, Iter 250/547, test loss = 0.000, time = 0.538829
+Epoch 0/16, Iter 300/547, test loss = 0.000, time = 0.544867
+Epoch 0/16, Iter 350/547, test loss = 0.000, time = 0.542211
+Epoch 0/16, Iter 400/547, test loss = 0.000, time = 0.513072
+Epoch 0/16, Iter 450/547, test loss = 0.000, time = 0.547758
+Epoch 0/16, Iter 500/547, test loss = 0.000, time = 0.532969
+avg_test_scalars {'loss': 0.0, 'D1': [0.14574737953774672], 'EPE': [3.3618861046744004], 'Thres1': [0.39602866796078584], 'Thres2': [0.21864950994686844], 'Thres3': [0.1613035857663839]}
+Best Checkpoint epoch_idx:0
+Epoch 1/16, Iter 35/2215, lr 0.00100, train loss = 21.209, time = 1.539
+Epoch 1/16, Iter 85/2215, lr 0.00100, train loss = 16.757, time = 1.363
+Epoch 1/16, Iter 135/2215, lr 0.00100, train loss = 23.680, time = 1.409
+Epoch 1/16, Iter 185/2215, lr 0.00100, train loss = 25.691, time = 1.434
+Epoch 1/16, Iter 235/2215, lr 0.00100, train loss = 27.611, time = 1.374
+Epoch 1/16, Iter 285/2215, lr 0.00100, train loss = 11.535, time = 1.373
+Epoch 1/16, Iter 335/2215, lr 0.00100, train loss = 21.769, time = 1.347
+Epoch 1/16, Iter 385/2215, lr 0.00100, train loss = 12.269, time = 1.444
+Epoch 1/16, Iter 435/2215, lr 0.00100, train loss = 22.169, time = 1.368
+Epoch 1/16, Iter 485/2215, lr 0.00100, train loss = 22.799, time = 1.486
+Epoch 1/16, Iter 535/2215, lr 0.00100, train loss = 15.464, time = 1.241
+Epoch 1/16, Iter 585/2215, lr 0.00100, train loss = 12.634, time = 1.321
+Epoch 1/16, Iter 635/2215, lr 0.00100, train loss = 14.595, time = 1.478
+Epoch 1/16, Iter 685/2215, lr 0.00100, train loss = 17.445, time = 1.416
+Epoch 1/16, Iter 735/2215, lr 0.00100, train loss = 20.351, time = 1.393
+Epoch 1/16, Iter 785/2215, lr 0.00100, train loss = 21.031, time = 1.476
+Epoch 1/16, Iter 835/2215, lr 0.00100, train loss = 15.321, time = 1.449
+Epoch 1/16, Iter 885/2215, lr 0.00100, train loss = 14.021, time = 1.313
+Epoch 1/16, Iter 935/2215, lr 0.00100, train loss = 14.552, time = 1.233
+Epoch 1/16, Iter 985/2215, lr 0.00100, train loss = 10.002, time = 1.459
+Epoch 1/16, Iter 1035/2215, lr 0.00100, train loss = 18.743, time = 1.358
+Epoch 1/16, Iter 1085/2215, lr 0.00100, train loss = 22.158, time = 1.480
+Epoch 1/16, Iter 1135/2215, lr 0.00100, train loss = 16.731, time = 1.431
+Epoch 1/16, Iter 1185/2215, lr 0.00100, train loss = 15.343, time = 1.446
+Epoch 1/16, Iter 1235/2215, lr 0.00100, train loss = 21.498, time = 1.413
+Epoch 1/16, Iter 1285/2215, lr 0.00100, train loss = 26.693, time = 1.345
+Epoch 1/16, Iter 1335/2215, lr 0.00100, train loss = 16.415, time = 1.451
+Epoch 1/16, Iter 1385/2215, lr 0.00100, train loss = 9.948, time = 1.473
+Epoch 1/16, Iter 1435/2215, lr 0.00100, train loss = 18.978, time = 1.325
+Epoch 1/16, Iter 1485/2215, lr 0.00100, train loss = 15.371, time = 1.384
+Epoch 1/16, Iter 1535/2215, lr 0.00100, train loss = 19.898, time = 1.240
+Epoch 1/16, Iter 1585/2215, lr 0.00100, train loss = 16.058, time = 1.223
+Epoch 1/16, Iter 1635/2215, lr 0.00100, train loss = 24.284, time = 1.194
+Epoch 1/16, Iter 1685/2215, lr 0.00100, train loss = 11.742, time = 1.225
+Epoch 1/16, Iter 1735/2215, lr 0.00100, train loss = 15.499, time = 1.073
+Epoch 1/16, Iter 1785/2215, lr 0.00100, train loss = 19.606, time = 1.079
+Epoch 1/16, Iter 1835/2215, lr 0.00100, train loss = 15.586, time = 1.142
+Epoch 1/16, Iter 1885/2215, lr 0.00100, train loss = 18.705, time = 1.310
+Epoch 1/16, Iter 1935/2215, lr 0.00100, train loss = 19.248, time = 1.221
+Epoch 1/16, Iter 1985/2215, lr 0.00100, train loss = 15.231, time = 1.242
+Epoch 1/16, Iter 2035/2215, lr 0.00100, train loss = 12.212, time = 1.236
+Epoch 1/16, Iter 2085/2215, lr 0.00100, train loss = 9.397, time = 1.175
+Epoch 1/16, Iter 2135/2215, lr 0.00100, train loss = 11.145, time = 1.226
+Epoch 1/16, Iter 2185/2215, lr 0.00100, train loss = 15.655, time = 1.225
+Epoch 1/16, Iter 3/547, test loss = 0.000, time = 0.593300
+Epoch 1/16, Iter 53/547, test loss = 0.000, time = 0.508765
+Epoch 1/16, Iter 103/547, test loss = 0.000, time = 0.530883
+Epoch 1/16, Iter 153/547, test loss = 0.000, time = 0.573533
+Epoch 1/16, Iter 203/547, test loss = 0.000, time = 0.487036
+Epoch 1/16, Iter 253/547, test loss = 0.000, time = 0.546659
+Epoch 1/16, Iter 303/547, test loss = 0.000, time = 0.462514
+Epoch 1/16, Iter 353/547, test loss = 0.000, time = 0.511408
+Epoch 1/16, Iter 403/547, test loss = 0.000, time = 0.480870
+Epoch 1/16, Iter 453/547, test loss = 0.000, time = 0.471906
+Epoch 1/16, Iter 503/547, test loss = 0.000, time = 0.519558
+avg_test_scalars {'loss': 0.0, 'D1': [0.20711568567963143], 'EPE': [3.4769499340048657], 'Thres1': [0.4442677628623502], 'Thres2': [0.30302975844367114], 'Thres3': [0.23484219340318083]}
+Epoch 2/16, Iter 20/2215, lr 0.00100, train loss = 9.732, time = 1.257
+Epoch 2/16, Iter 70/2215, lr 0.00100, train loss = 15.034, time = 1.317
+Epoch 2/16, Iter 120/2215, lr 0.00100, train loss = 21.039, time = 1.178
+Epoch 2/16, Iter 170/2215, lr 0.00100, train loss = 16.624, time = 1.402
+Epoch 2/16, Iter 220/2215, lr 0.00100, train loss = 11.365, time = 1.299
+Epoch 2/16, Iter 270/2215, lr 0.00100, train loss = 23.819, time = 1.493
+Epoch 2/16, Iter 320/2215, lr 0.00100, train loss = 15.435, time = 1.117
+Epoch 2/16, Iter 370/2215, lr 0.00100, train loss = 15.517, time = 1.056
+Epoch 2/16, Iter 420/2215, lr 0.00100, train loss = 17.763, time = 1.137
+Epoch 2/16, Iter 470/2215, lr 0.00100, train loss = 11.206, time = 1.254
+Epoch 2/16, Iter 520/2215, lr 0.00100, train loss = 16.679, time = 1.098
+Epoch 2/16, Iter 570/2215, lr 0.00100, train loss = 12.111, time = 1.232
+Epoch 2/16, Iter 620/2215, lr 0.00100, train loss = 14.273, time = 1.425
+Epoch 2/16, Iter 670/2215, lr 0.00100, train loss = 24.239, time = 1.232
+Epoch 2/16, Iter 720/2215, lr 0.00100, train loss = 14.509, time = 1.148
+Epoch 2/16, Iter 770/2215, lr 0.00100, train loss = 14.094, time = 1.182
+Epoch 2/16, Iter 820/2215, lr 0.00100, train loss = 15.052, time = 1.439
+Epoch 2/16, Iter 870/2215, lr 0.00100, train loss = 17.778, time = 1.170
+Epoch 2/16, Iter 920/2215, lr 0.00100, train loss = 12.063, time = 1.319
+Epoch 2/16, Iter 970/2215, lr 0.00100, train loss = 19.958, time = 1.212
+Epoch 2/16, Iter 1020/2215, lr 0.00100, train loss = 20.511, time = 1.239
+Epoch 2/16, Iter 1070/2215, lr 0.00100, train loss = 20.899, time = 1.161
+Epoch 2/16, Iter 1120/2215, lr 0.00100, train loss = 18.251, time = 1.302
+Epoch 2/16, Iter 1170/2215, lr 0.00100, train loss = 23.261, time = 1.359
+Epoch 2/16, Iter 1220/2215, lr 0.00100, train loss = 15.889, time = 1.299
+Epoch 2/16, Iter 1270/2215, lr 0.00100, train loss = 24.402, time = 1.058
+Epoch 2/16, Iter 1320/2215, lr 0.00100, train loss = 19.989, time = 1.078
+Epoch 2/16, Iter 1370/2215, lr 0.00100, train loss = 30.637, time = 1.136
+Epoch 2/16, Iter 1420/2215, lr 0.00100, train loss = 24.081, time = 1.195
+Epoch 2/16, Iter 1470/2215, lr 0.00100, train loss = 13.801, time = 1.419
+Epoch 2/16, Iter 1520/2215, lr 0.00100, train loss = 17.049, time = 1.138
+Epoch 2/16, Iter 1570/2215, lr 0.00100, train loss = 14.199, time = 1.398
+Epoch 2/16, Iter 1620/2215, lr 0.00100, train loss = 9.854, time = 1.126
+Epoch 2/16, Iter 1670/2215, lr 0.00100, train loss = 13.909, time = 1.131
+Epoch 2/16, Iter 1720/2215, lr 0.00100, train loss = 10.679, time = 1.139
+Epoch 2/16, Iter 1770/2215, lr 0.00100, train loss = 13.509, time = 1.136
+Epoch 2/16, Iter 1820/2215, lr 0.00100, train loss = 21.158, time = 1.413
+Epoch 2/16, Iter 1870/2215, lr 0.00100, train loss = 12.369, time = 1.417
+Epoch 2/16, Iter 1920/2215, lr 0.00100, train loss = 18.388, time = 1.485
+Epoch 2/16, Iter 1970/2215, lr 0.00100, train loss = 13.717, time = 1.454
+Epoch 2/16, Iter 2020/2215, lr 0.00100, train loss = 18.129, time = 1.156
+Epoch 2/16, Iter 2070/2215, lr 0.00100, train loss = 13.729, time = 1.122
+Epoch 2/16, Iter 2120/2215, lr 0.00100, train loss = 16.970, time = 1.174
+Epoch 2/16, Iter 2170/2215, lr 0.00100, train loss = 13.462, time = 1.361
+Epoch 2/16, Iter 6/547, test loss = 0.000, time = 0.568463
+Epoch 2/16, Iter 56/547, test loss = 0.000, time = 0.626941
+Epoch 2/16, Iter 106/547, test loss = 0.000, time = 0.601084
+Epoch 2/16, Iter 156/547, test loss = 0.000, time = 0.578050
+Epoch 2/16, Iter 206/547, test loss = 0.000, time = 0.532277
+Epoch 2/16, Iter 256/547, test loss = 0.000, time = 0.553015
+Epoch 2/16, Iter 306/547, test loss = 0.000, time = 0.502459
+Epoch 2/16, Iter 356/547, test loss = 0.000, time = 0.576066
+Epoch 2/16, Iter 406/547, test loss = 0.000, time = 0.590077
+Epoch 2/16, Iter 456/547, test loss = 0.000, time = 0.575776
+Epoch 2/16, Iter 506/547, test loss = 0.000, time = 0.706767
+avg_test_scalars {'loss': 0.0, 'D1': [0.27615777055785684], 'EPE': [4.3039631973236965], 'Thres1': [0.4801173394024917], 'Thres2': [0.349127784337324], 'Thres3': [0.2873977796741552]}
+Epoch 3/16, Iter 5/2215, lr 0.00100, train loss = 12.486, time = 1.504
+Epoch 3/16, Iter 55/2215, lr 0.00100, train loss = 17.671, time = 1.338
+Epoch 3/16, Iter 105/2215, lr 0.00100, train loss = 18.253, time = 1.478
+Epoch 3/16, Iter 155/2215, lr 0.00100, train loss = 16.245, time = 1.252
+Epoch 3/16, Iter 205/2215, lr 0.00100, train loss = 9.598, time = 1.412
+Epoch 3/16, Iter 255/2215, lr 0.00100, train loss = 11.814, time = 1.286
+Epoch 3/16, Iter 305/2215, lr 0.00100, train loss = 13.457, time = 1.457
+Epoch 3/16, Iter 355/2215, lr 0.00100, train loss = 13.021, time = 1.461
+Epoch 3/16, Iter 405/2215, lr 0.00100, train loss = 17.078, time = 1.419
+Epoch 3/16, Iter 455/2215, lr 0.00100, train loss = 14.110, time = 1.397
+Epoch 3/16, Iter 505/2215, lr 0.00100, train loss = 14.970, time = 1.264
+Epoch 3/16, Iter 555/2215, lr 0.00100, train loss = 11.776, time = 1.387
+Epoch 3/16, Iter 605/2215, lr 0.00100, train loss = 10.711, time = 1.362
+Epoch 3/16, Iter 655/2215, lr 0.00100, train loss = 17.900, time = 1.357
+Epoch 3/16, Iter 705/2215, lr 0.00100, train loss = 15.849, time = 1.170
+Epoch 3/16, Iter 755/2215, lr 0.00100, train loss = 16.633, time = 1.056
+Epoch 3/16, Iter 805/2215, lr 0.00100, train loss = 14.824, time = 1.180
+Epoch 3/16, Iter 855/2215, lr 0.00100, train loss = 17.937, time = 1.069
+Epoch 3/16, Iter 905/2215, lr 0.00100, train loss = 21.009, time = 1.154
+Epoch 3/16, Iter 955/2215, lr 0.00100, train loss = 14.642, time = 1.207
+Epoch 3/16, Iter 1005/2215, lr 0.00100, train loss = 10.958, time = 1.171
+Epoch 3/16, Iter 1055/2215, lr 0.00100, train loss = 14.609, time = 1.221
+Epoch 3/16, Iter 1105/2215, lr 0.00100, train loss = 12.601, time = 1.200
+Epoch 3/16, Iter 1155/2215, lr 0.00100, train loss = 10.433, time = 1.078
+Epoch 3/16, Iter 1205/2215, lr 0.00100, train loss = 12.399, time = 1.236
+Epoch 3/16, Iter 1255/2215, lr 0.00100, train loss = 9.650, time = 1.405
+Epoch 3/16, Iter 1305/2215, lr 0.00100, train loss = 18.963, time = 1.321
+Epoch 3/16, Iter 1355/2215, lr 0.00100, train loss = 12.510, time = 1.267
+Epoch 3/16, Iter 1405/2215, lr 0.00100, train loss = 14.015, time = 1.126
+Epoch 3/16, Iter 1455/2215, lr 0.00100, train loss = 12.999, time = 1.184
+Epoch 3/16, Iter 1505/2215, lr 0.00100, train loss = 13.450, time = 1.179
+Epoch 3/16, Iter 1555/2215, lr 0.00100, train loss = 22.960, time = 1.168
+Epoch 3/16, Iter 1605/2215, lr 0.00100, train loss = 11.221, time = 1.270
+Epoch 3/16, Iter 1655/2215, lr 0.00100, train loss = 15.251, time = 1.239
+Epoch 3/16, Iter 1705/2215, lr 0.00100, train loss = 13.853, time = 1.199
+Epoch 3/16, Iter 1755/2215, lr 0.00100, train loss = 12.336, time = 1.185
+Epoch 3/16, Iter 1805/2215, lr 0.00100, train loss = 8.151, time = 1.188
+Epoch 3/16, Iter 1855/2215, lr 0.00100, train loss = 11.019, time = 1.312
+Epoch 3/16, Iter 1905/2215, lr 0.00100, train loss = 15.412, time = 1.074
+Epoch 3/16, Iter 1955/2215, lr 0.00100, train loss = 10.276, time = 1.230
+Epoch 3/16, Iter 2005/2215, lr 0.00100, train loss = 11.622, time = 1.457
+Epoch 3/16, Iter 2055/2215, lr 0.00100, train loss = 11.688, time = 1.061
+Epoch 3/16, Iter 2105/2215, lr 0.00100, train loss = 12.797, time = 1.283
+Epoch 3/16, Iter 2155/2215, lr 0.00100, train loss = 10.744, time = 1.208
+Epoch 3/16, Iter 2205/2215, lr 0.00100, train loss = 10.768, time = 1.123
+Epoch 3/16, Iter 9/547, test loss = 0.000, time = 0.571217
+Epoch 3/16, Iter 59/547, test loss = 0.000, time = 0.549194
+Epoch 3/16, Iter 109/547, test loss = 0.000, time = 0.560727
+Epoch 3/16, Iter 159/547, test loss = 0.000, time = 0.546848
+Epoch 3/16, Iter 209/547, test loss = 0.000, time = 0.561335
+Epoch 3/16, Iter 259/547, test loss = 0.000, time = 0.534331
+Epoch 3/16, Iter 309/547, test loss = 0.000, time = 0.559714
+Epoch 3/16, Iter 359/547, test loss = 0.000, time = 0.545423
+Epoch 3/16, Iter 409/547, test loss = 0.000, time = 0.546256
+Epoch 3/16, Iter 459/547, test loss = 0.000, time = 0.538035
+Epoch 3/16, Iter 509/547, test loss = 0.000, time = 0.552776
+avg_test_scalars {'loss': 0.0, 'D1': [0.09210645794950194], 'EPE': [2.2265418758122095], 'Thres1': [0.304975116519867], 'Thres2': [0.17002330761287068], 'Thres3': [0.11912583767809315]}
+Best Checkpoint epoch_idx:3
+Epoch 4/16, Iter 40/2215, lr 0.00100, train loss = 10.891, time = 1.567
+Epoch 4/16, Iter 90/2215, lr 0.00100, train loss = 14.203, time = 1.336
+Epoch 4/16, Iter 140/2215, lr 0.00100, train loss = 13.046, time = 1.334
+Epoch 4/16, Iter 190/2215, lr 0.00100, train loss = 21.266, time = 1.338
+Epoch 4/16, Iter 240/2215, lr 0.00100, train loss = 14.666, time = 1.290
+Epoch 4/16, Iter 290/2215, lr 0.00100, train loss = 13.650, time = 1.278
+Epoch 4/16, Iter 340/2215, lr 0.00100, train loss = 14.111, time = 1.145
+Epoch 4/16, Iter 390/2215, lr 0.00100, train loss = 10.835, time = 1.356
+Epoch 4/16, Iter 440/2215, lr 0.00100, train loss = 14.795, time = 1.524
+Epoch 4/16, Iter 490/2215, lr 0.00100, train loss = 16.790, time = 1.429
+Epoch 4/16, Iter 540/2215, lr 0.00100, train loss = 5.692, time = 1.282
+Epoch 4/16, Iter 590/2215, lr 0.00100, train loss = 10.839, time = 1.279
+Epoch 4/16, Iter 640/2215, lr 0.00100, train loss = 15.110, time = 1.420
+Epoch 4/16, Iter 690/2215, lr 0.00100, train loss = 14.712, time = 1.049
+Epoch 4/16, Iter 740/2215, lr 0.00100, train loss = 16.380, time = 1.126
+Epoch 4/16, Iter 790/2215, lr 0.00100, train loss = 12.555, time = 1.117
+Epoch 4/16, Iter 840/2215, lr 0.00100, train loss = 12.714, time = 1.140
+Epoch 4/16, Iter 890/2215, lr 0.00100, train loss = 12.185, time = 1.275
+Epoch 4/16, Iter 940/2215, lr 0.00100, train loss = 11.371, time = 1.222
+Epoch 4/16, Iter 990/2215, lr 0.00100, train loss = 11.146, time = 1.423
+Epoch 4/16, Iter 1040/2215, lr 0.00100, train loss = 11.804, time = 1.517
+Epoch 4/16, Iter 1090/2215, lr 0.00100, train loss = 18.490, time = 1.351
+Epoch 4/16, Iter 1140/2215, lr 0.00100, train loss = 18.929, time = 1.343
+Epoch 4/16, Iter 1190/2215, lr 0.00100, train loss = 10.918, time = 1.311
+Epoch 4/16, Iter 1240/2215, lr 0.00100, train loss = 13.382, time = 1.055
+Epoch 4/16, Iter 1290/2215, lr 0.00100, train loss = 14.247, time = 1.199
+Epoch 4/16, Iter 1340/2215, lr 0.00100, train loss = 15.870, time = 1.437
+Epoch 4/16, Iter 1390/2215, lr 0.00100, train loss = 7.912, time = 1.101
+Epoch 4/16, Iter 1440/2215, lr 0.00100, train loss = 9.872, time = 1.434
+Epoch 4/16, Iter 1490/2215, lr 0.00100, train loss = 17.676, time = 1.407
+Epoch 4/16, Iter 1540/2215, lr 0.00100, train loss = 13.053, time = 1.293
+Epoch 4/16, Iter 1590/2215, lr 0.00100, train loss = 12.204, time = 1.083
+Epoch 4/16, Iter 1640/2215, lr 0.00100, train loss = 11.385, time = 1.098
+Epoch 4/16, Iter 1690/2215, lr 0.00100, train loss = 10.901, time = 1.262
+Epoch 4/16, Iter 1740/2215, lr 0.00100, train loss = 24.088, time = 1.191
+Epoch 4/16, Iter 1790/2215, lr 0.00100, train loss = 13.758, time = 1.247
+Epoch 4/16, Iter 1840/2215, lr 0.00100, train loss = 10.310, time = 1.105
+Epoch 4/16, Iter 1890/2215, lr 0.00100, train loss = 24.527, time = 1.188
+Epoch 4/16, Iter 1940/2215, lr 0.00100, train loss = 7.172, time = 1.407
+Epoch 4/16, Iter 1990/2215, lr 0.00100, train loss = 9.719, time = 1.417
+Epoch 4/16, Iter 2040/2215, lr 0.00100, train loss = 16.597, time = 1.123
+Epoch 4/16, Iter 2090/2215, lr 0.00100, train loss = 15.291, time = 1.238
+Epoch 4/16, Iter 2140/2215, lr 0.00100, train loss = 14.188, time = 1.197
+Epoch 4/16, Iter 2190/2215, lr 0.00100, train loss = 14.765, time = 1.193
+Epoch 4/16, Iter 12/547, test loss = 0.000, time = 0.578478
+Epoch 4/16, Iter 62/547, test loss = 0.000, time = 0.527786
+Epoch 4/16, Iter 112/547, test loss = 0.000, time = 0.510440
+Epoch 4/16, Iter 162/547, test loss = 0.000, time = 0.551147
+Epoch 4/16, Iter 212/547, test loss = 0.000, time = 0.538553
+Epoch 4/16, Iter 262/547, test loss = 0.000, time = 0.509398
+Epoch 4/16, Iter 312/547, test loss = 0.000, time = 0.509061
+Epoch 4/16, Iter 362/547, test loss = 0.000, time = 0.552139
+Epoch 4/16, Iter 412/547, test loss = 0.000, time = 0.485842
+Epoch 4/16, Iter 462/547, test loss = 0.000, time = 0.517485
+Epoch 4/16, Iter 512/547, test loss = 0.000, time = 0.521139
+avg_test_scalars {'loss': 0.0, 'D1': [0.11733577708957182], 'EPE': [2.4012917755290837], 'Thres1': [0.3215860531578552], 'Thres2': [0.18351460639149006], 'Thres3': [0.13532733657759985]}
+Epoch 5/16, Iter 25/2215, lr 0.00100, train loss = 9.938, time = 1.531
+Epoch 5/16, Iter 75/2215, lr 0.00100, train loss = 18.593, time = 1.393
+Epoch 5/16, Iter 125/2215, lr 0.00100, train loss = 13.117, time = 1.447
+Epoch 5/16, Iter 175/2215, lr 0.00100, train loss = 9.599, time = 1.402
+Epoch 5/16, Iter 225/2215, lr 0.00100, train loss = 15.234, time = 1.436
+Epoch 5/16, Iter 275/2215, lr 0.00100, train loss = 9.961, time = 1.393
+Epoch 5/16, Iter 325/2215, lr 0.00100, train loss = 12.013, time = 1.422
+Epoch 5/16, Iter 375/2215, lr 0.00100, train loss = 9.733, time = 1.374
+Epoch 5/16, Iter 425/2215, lr 0.00100, train loss = 11.448, time = 1.318
+Epoch 5/16, Iter 475/2215, lr 0.00100, train loss = 13.216, time = 1.499
+Epoch 5/16, Iter 525/2215, lr 0.00100, train loss = 11.947, time = 1.397
+Epoch 5/16, Iter 575/2215, lr 0.00100, train loss = 11.360, time = 1.381
+Epoch 5/16, Iter 625/2215, lr 0.00100, train loss = 21.854, time = 1.299
+Epoch 5/16, Iter 675/2215, lr 0.00100, train loss = 11.541, time = 1.297
+Epoch 5/16, Iter 725/2215, lr 0.00100, train loss = 14.372, time = 1.517
+Epoch 5/16, Iter 775/2215, lr 0.00100, train loss = 15.468, time = 1.255
+Epoch 5/16, Iter 825/2215, lr 0.00100, train loss = 13.240, time = 1.421
+Epoch 5/16, Iter 875/2215, lr 0.00100, train loss = 9.589, time = 1.424
+Epoch 5/16, Iter 925/2215, lr 0.00100, train loss = 13.752, time = 1.541
+Epoch 5/16, Iter 975/2215, lr 0.00100, train loss = 7.576, time = 1.393
+Epoch 5/16, Iter 1025/2215, lr 0.00100, train loss = 12.123, time = 1.580
+Epoch 5/16, Iter 1075/2215, lr 0.00100, train loss = 11.672, time = 1.436
+Epoch 5/16, Iter 1125/2215, lr 0.00100, train loss = 20.300, time = 1.512
+Epoch 5/16, Iter 1175/2215, lr 0.00100, train loss = 11.143, time = 1.343
+Epoch 5/16, Iter 1225/2215, lr 0.00100, train loss = 13.160, time = 1.408
+Epoch 5/16, Iter 1275/2215, lr 0.00100, train loss = 16.790, time = 1.481
+Epoch 5/16, Iter 1325/2215, lr 0.00100, train loss = 12.534, time = 1.489
+Epoch 5/16, Iter 1375/2215, lr 0.00100, train loss = 12.814, time = 1.507
+Epoch 5/16, Iter 1425/2215, lr 0.00100, train loss = 13.734, time = 1.378
+Epoch 5/16, Iter 1475/2215, lr 0.00100, train loss = 15.655, time = 1.512
+Epoch 5/16, Iter 1525/2215, lr 0.00100, train loss = 11.245, time = 1.476
+Epoch 5/16, Iter 1575/2215, lr 0.00100, train loss = 12.059, time = 1.174
+Epoch 5/16, Iter 1625/2215, lr 0.00100, train loss = 14.035, time = 1.295
+Epoch 5/16, Iter 1675/2215, lr 0.00100, train loss = 9.563, time = 1.336
+Epoch 5/16, Iter 1725/2215, lr 0.00100, train loss = 21.642, time = 1.374
+Epoch 5/16, Iter 1775/2215, lr 0.00100, train loss = 19.159, time = 1.416
+Epoch 5/16, Iter 1825/2215, lr 0.00100, train loss = 12.555, time = 1.415
+Epoch 5/16, Iter 1875/2215, lr 0.00100, train loss = 13.618, time = 1.321
+Epoch 5/16, Iter 1925/2215, lr 0.00100, train loss = 8.083, time = 1.562
+Epoch 5/16, Iter 1975/2215, lr 0.00100, train loss = 13.230, time = 1.302
+Epoch 5/16, Iter 2025/2215, lr 0.00100, train loss = 12.514, time = 1.378
+Epoch 5/16, Iter 2075/2215, lr 0.00100, train loss = 9.766, time = 1.391
+Epoch 5/16, Iter 2125/2215, lr 0.00100, train loss = 16.756, time = 1.184
+Epoch 5/16, Iter 2175/2215, lr 0.00100, train loss = 7.883, time = 1.149
+Epoch 5/16, Iter 15/547, test loss = 0.000, time = 0.788236
+Epoch 5/16, Iter 65/547, test loss = 0.000, time = 0.543088
+Epoch 5/16, Iter 115/547, test loss = 0.000, time = 0.641635
+Epoch 5/16, Iter 165/547, test loss = 0.000, time = 0.717980
+Epoch 5/16, Iter 215/547, test loss = 0.000, time = 0.556396
+Epoch 5/16, Iter 265/547, test loss = 0.000, time = 0.631888
+Epoch 5/16, Iter 315/547, test loss = 0.000, time = 0.627804
+Epoch 5/16, Iter 365/547, test loss = 0.000, time = 0.537126
+Epoch 5/16, Iter 415/547, test loss = 0.000, time = 0.605628
+Epoch 5/16, Iter 465/547, test loss = 0.000, time = 0.610493
+Epoch 5/16, Iter 515/547, test loss = 0.000, time = 0.527460
+avg_test_scalars {'loss': 0.0, 'D1': [0.14068709339749005], 'EPE': [2.4830906793229977], 'Thres1': [0.40647494550487895], 'Thres2': [0.24155754660693776], 'Thres3': [0.1673093146050325]}
+Epoch 6/16, Iter 10/2215, lr 0.00100, train loss = 8.020, time = 1.251
+Epoch 6/16, Iter 60/2215, lr 0.00100, train loss = 13.229, time = 1.413
+Epoch 6/16, Iter 110/2215, lr 0.00100, train loss = 11.588, time = 1.354
+Epoch 6/16, Iter 160/2215, lr 0.00100, train loss = 11.585, time = 1.442
+Epoch 6/16, Iter 210/2215, lr 0.00100, train loss = 9.988, time = 1.507
+Epoch 6/16, Iter 260/2215, lr 0.00100, train loss = 15.714, time = 1.329
+Epoch 6/16, Iter 310/2215, lr 0.00100, train loss = 20.550, time = 1.197
+Epoch 6/16, Iter 360/2215, lr 0.00100, train loss = 13.963, time = 1.462
+Epoch 6/16, Iter 410/2215, lr 0.00100, train loss = 16.138, time = 1.312
+Epoch 6/16, Iter 460/2215, lr 0.00100, train loss = 12.130, time = 1.441
+Epoch 6/16, Iter 510/2215, lr 0.00100, train loss = 10.389, time = 1.336
+Epoch 6/16, Iter 560/2215, lr 0.00100, train loss = 14.891, time = 1.394
+Epoch 6/16, Iter 610/2215, lr 0.00100, train loss = 14.502, time = 1.355
+Epoch 6/16, Iter 660/2215, lr 0.00100, train loss = 10.885, time = 1.331
+Epoch 6/16, Iter 710/2215, lr 0.00100, train loss = 13.609, time = 1.381
+Epoch 6/16, Iter 760/2215, lr 0.00100, train loss = 8.027, time = 1.219
+Epoch 6/16, Iter 810/2215, lr 0.00100, train loss = 13.655, time = 1.416
+Epoch 6/16, Iter 860/2215, lr 0.00100, train loss = 10.012, time = 1.406
+Epoch 6/16, Iter 910/2215, lr 0.00100, train loss = 9.863, time = 1.407
+Epoch 6/16, Iter 960/2215, lr 0.00100, train loss = 10.045, time = 1.306
+Epoch 6/16, Iter 1010/2215, lr 0.00100, train loss = 11.482, time = 1.424
+Epoch 6/16, Iter 1060/2215, lr 0.00100, train loss = 15.222, time = 1.293
+Epoch 6/16, Iter 1110/2215, lr 0.00100, train loss = 12.161, time = 1.335
+Epoch 6/16, Iter 1160/2215, lr 0.00100, train loss = 13.904, time = 1.459
+Epoch 6/16, Iter 1210/2215, lr 0.00100, train loss = 10.874, time = 1.329
+Epoch 6/16, Iter 1260/2215, lr 0.00100, train loss = 11.091, time = 1.343
+Epoch 6/16, Iter 1310/2215, lr 0.00100, train loss = 12.511, time = 1.281
+Epoch 6/16, Iter 1360/2215, lr 0.00100, train loss = 10.386, time = 1.292
+Epoch 6/16, Iter 1410/2215, lr 0.00100, train loss = 14.160, time = 1.227
+Epoch 6/16, Iter 1460/2215, lr 0.00100, train loss = 11.438, time = 1.417
+Epoch 6/16, Iter 1510/2215, lr 0.00100, train loss = 19.217, time = 1.309
+Epoch 6/16, Iter 1560/2215, lr 0.00100, train loss = 10.023, time = 1.291
+Epoch 6/16, Iter 1610/2215, lr 0.00100, train loss = 16.642, time = 1.354
+Epoch 6/16, Iter 1660/2215, lr 0.00100, train loss = 10.766, time = 1.453
+Epoch 6/16, Iter 1710/2215, lr 0.00100, train loss = 13.653, time = 1.453
+Epoch 6/16, Iter 1760/2215, lr 0.00100, train loss = 11.996, time = 1.440
+Epoch 6/16, Iter 1810/2215, lr 0.00100, train loss = 12.191, time = 1.293
+Epoch 6/16, Iter 1860/2215, lr 0.00100, train loss = 13.660, time = 1.363
+Epoch 6/16, Iter 1910/2215, lr 0.00100, train loss = 11.435, time = 1.327
+Epoch 6/16, Iter 1960/2215, lr 0.00100, train loss = 16.314, time = 1.541
+Epoch 6/16, Iter 2010/2215, lr 0.00100, train loss = 12.799, time = 1.437
+Epoch 6/16, Iter 2060/2215, lr 0.00100, train loss = 17.394, time = 1.358
+Epoch 6/16, Iter 2110/2215, lr 0.00100, train loss = 16.405, time = 1.373
+Epoch 6/16, Iter 2160/2215, lr 0.00100, train loss = 7.845, time = 1.474
+Epoch 6/16, Iter 2210/2215, lr 0.00100, train loss = 9.227, time = 1.379
+Epoch 6/16, Iter 18/547, test loss = 0.000, time = 0.581084
+Epoch 6/16, Iter 68/547, test loss = 0.000, time = 0.516020
+Epoch 6/16, Iter 118/547, test loss = 0.000, time = 0.546057
+Epoch 6/16, Iter 168/547, test loss = 0.000, time = 0.507125
+Epoch 6/16, Iter 218/547, test loss = 0.000, time = 0.556957
+Epoch 6/16, Iter 268/547, test loss = 0.000, time = 0.507446
+Epoch 6/16, Iter 318/547, test loss = 0.000, time = 0.531343
+Epoch 6/16, Iter 368/547, test loss = 0.000, time = 0.506698
+Epoch 6/16, Iter 418/547, test loss = 0.000, time = 0.527923
+Epoch 6/16, Iter 468/547, test loss = 0.000, time = 0.561804
+Epoch 6/16, Iter 518/547, test loss = 0.000, time = 0.521468
+avg_test_scalars {'loss': 0.0, 'D1': [0.07609969207598152], 'EPE': [1.8008141419569361], 'Thres1': [0.22281890265793425], 'Thres2': [0.12288820485446528], 'Thres3': [0.08885586540294739]}
+Best Checkpoint epoch_idx:6
+Epoch 7/16, Iter 45/2215, lr 0.00100, train loss = 14.667, time = 1.391
+Epoch 7/16, Iter 95/2215, lr 0.00100, train loss = 7.633, time = 1.440
+Epoch 7/16, Iter 145/2215, lr 0.00100, train loss = 10.314, time = 1.187
+Epoch 7/16, Iter 195/2215, lr 0.00100, train loss = 10.276, time = 1.338
+Epoch 7/16, Iter 245/2215, lr 0.00100, train loss = 15.836, time = 1.440
+Epoch 7/16, Iter 295/2215, lr 0.00100, train loss = 7.914, time = 1.479
+Epoch 7/16, Iter 345/2215, lr 0.00100, train loss = 14.690, time = 1.384
+Epoch 7/16, Iter 395/2215, lr 0.00100, train loss = 11.154, time = 1.245
+Epoch 7/16, Iter 445/2215, lr 0.00100, train loss = 12.679, time = 1.141
+Epoch 7/16, Iter 495/2215, lr 0.00100, train loss = 11.147, time = 1.332
+Epoch 7/16, Iter 545/2215, lr 0.00100, train loss = 12.159, time = 1.267
+Epoch 7/16, Iter 595/2215, lr 0.00100, train loss = 12.786, time = 1.192
+Epoch 7/16, Iter 645/2215, lr 0.00100, train loss = 9.750, time = 1.072
+Epoch 7/16, Iter 695/2215, lr 0.00100, train loss = 13.637, time = 1.090
+Epoch 7/16, Iter 745/2215, lr 0.00100, train loss = 11.779, time = 1.229
+Epoch 7/16, Iter 795/2215, lr 0.00100, train loss = 10.883, time = 1.300
+Epoch 7/16, Iter 845/2215, lr 0.00100, train loss = 11.226, time = 1.150
+Epoch 7/16, Iter 895/2215, lr 0.00100, train loss = 7.750, time = 1.259
+Epoch 7/16, Iter 945/2215, lr 0.00100, train loss = 9.047, time = 1.220
+Epoch 7/16, Iter 995/2215, lr 0.00100, train loss = 13.332, time = 1.086
+Epoch 7/16, Iter 1045/2215, lr 0.00100, train loss = 9.786, time = 1.163
+Epoch 7/16, Iter 1095/2215, lr 0.00100, train loss = 13.408, time = 1.302
+Epoch 7/16, Iter 1145/2215, lr 0.00100, train loss = 11.145, time = 1.158
+Epoch 7/16, Iter 1195/2215, lr 0.00100, train loss = 8.027, time = 1.155
+Epoch 7/16, Iter 1245/2215, lr 0.00100, train loss = 7.412, time = 1.412
+Epoch 7/16, Iter 1295/2215, lr 0.00100, train loss = 13.028, time = 1.159
+Epoch 7/16, Iter 1345/2215, lr 0.00100, train loss = 12.844, time = 1.171
+Epoch 7/16, Iter 1395/2215, lr 0.00100, train loss = 12.534, time = 1.165
+Epoch 7/16, Iter 1445/2215, lr 0.00100, train loss = 11.885, time = 1.205
+Epoch 7/16, Iter 1495/2215, lr 0.00100, train loss = 17.479, time = 1.170
+Epoch 7/16, Iter 1545/2215, lr 0.00100, train loss = 12.275, time = 1.215
+Epoch 7/16, Iter 1595/2215, lr 0.00100, train loss = 12.714, time = 1.184
+Epoch 7/16, Iter 1645/2215, lr 0.00100, train loss = 12.393, time = 1.141
+Epoch 7/16, Iter 1695/2215, lr 0.00100, train loss = 13.191, time = 1.142
+Epoch 7/16, Iter 1745/2215, lr 0.00100, train loss = 12.075, time = 1.214
+Epoch 7/16, Iter 1795/2215, lr 0.00100, train loss = 12.890, time = 1.119
+Epoch 7/16, Iter 1845/2215, lr 0.00100, train loss = 8.980, time = 1.143
+Epoch 7/16, Iter 1895/2215, lr 0.00100, train loss = 9.843, time = 1.041
+Epoch 7/16, Iter 1945/2215, lr 0.00100, train loss = 8.334, time = 1.225
+Epoch 7/16, Iter 1995/2215, lr 0.00100, train loss = 9.458, time = 1.187
+Epoch 7/16, Iter 2045/2215, lr 0.00100, train loss = 10.124, time = 1.188
+Epoch 7/16, Iter 2095/2215, lr 0.00100, train loss = 10.679, time = 1.056
+Epoch 7/16, Iter 2145/2215, lr 0.00100, train loss = 11.187, time = 1.175
+Epoch 7/16, Iter 2195/2215, lr 0.00100, train loss = 11.980, time = 1.221
+Epoch 7/16, Iter 21/547, test loss = 0.000, time = 0.542111
+Epoch 7/16, Iter 71/547, test loss = 0.000, time = 0.532781
+Epoch 7/16, Iter 121/547, test loss = 0.000, time = 0.471699
+Epoch 7/16, Iter 171/547, test loss = 0.000, time = 0.473600
+Epoch 7/16, Iter 221/547, test loss = 0.000, time = 0.478323
+Epoch 7/16, Iter 271/547, test loss = 0.000, time = 0.532849
+Epoch 7/16, Iter 321/547, test loss = 0.000, time = 0.464107
+Epoch 7/16, Iter 371/547, test loss = 0.000, time = 0.481821
+Epoch 7/16, Iter 421/547, test loss = 0.000, time = 0.544007
+Epoch 7/16, Iter 471/547, test loss = 0.000, time = 0.520519
+Epoch 7/16, Iter 521/547, test loss = 0.000, time = 0.551103
+avg_test_scalars {'loss': 0.0, 'D1': [0.07770233780785823], 'EPE': [1.8532437844511795], 'Thres1': [0.24180337150582884], 'Thres2': [0.13156737348361033], 'Thres3': [0.0940815759158712]}
+Epoch 8/16, Iter 30/2215, lr 0.00100, train loss = 11.737, time = 1.389
+Epoch 8/16, Iter 80/2215, lr 0.00100, train loss = 11.736, time = 1.497
+Epoch 8/16, Iter 130/2215, lr 0.00100, train loss = 16.640, time = 1.374
+Epoch 8/16, Iter 180/2215, lr 0.00100, train loss = 15.929, time = 1.382
+Epoch 8/16, Iter 230/2215, lr 0.00100, train loss = 7.094, time = 1.391
+Epoch 8/16, Iter 280/2215, lr 0.00100, train loss = 7.985, time = 1.420
+Epoch 8/16, Iter 330/2215, lr 0.00100, train loss = 14.311, time = 1.347
+Epoch 8/16, Iter 380/2215, lr 0.00100, train loss = 14.880, time = 1.419
+Epoch 8/16, Iter 430/2215, lr 0.00100, train loss = 13.056, time = 1.305
+Epoch 8/16, Iter 480/2215, lr 0.00100, train loss = 12.970, time = 1.393
+Epoch 8/16, Iter 530/2215, lr 0.00100, train loss = 11.802, time = 1.320
+Epoch 8/16, Iter 580/2215, lr 0.00100, train loss = 8.525, time = 1.345
+Epoch 8/16, Iter 630/2215, lr 0.00100, train loss = 10.404, time = 1.410
+Epoch 8/16, Iter 680/2215, lr 0.00100, train loss = 13.113, time = 1.364
+Epoch 8/16, Iter 730/2215, lr 0.00100, train loss = 9.794, time = 1.443
+Epoch 8/16, Iter 780/2215, lr 0.00100, train loss = 8.743, time = 1.446
+Epoch 8/16, Iter 830/2215, lr 0.00100, train loss = 11.592, time = 1.402
+Epoch 8/16, Iter 880/2215, lr 0.00100, train loss = 15.892, time = 1.385
+Epoch 8/16, Iter 930/2215, lr 0.00100, train loss = 9.358, time = 1.483
+Epoch 8/16, Iter 980/2215, lr 0.00100, train loss = 13.049, time = 1.521
+Epoch 8/16, Iter 1030/2215, lr 0.00100, train loss = 8.704, time = 1.443
+Epoch 8/16, Iter 1080/2215, lr 0.00100, train loss = 12.746, time = 1.353
+Epoch 8/16, Iter 1130/2215, lr 0.00100, train loss = 12.217, time = 1.167
+Epoch 8/16, Iter 1180/2215, lr 0.00100, train loss = 8.675, time = 1.442
+Epoch 8/16, Iter 1230/2215, lr 0.00100, train loss = 10.063, time = 1.432
+Epoch 8/16, Iter 1280/2215, lr 0.00100, train loss = 15.983, time = 1.555
+Epoch 8/16, Iter 1330/2215, lr 0.00100, train loss = 14.407, time = 1.502
+Epoch 8/16, Iter 1380/2215, lr 0.00100, train loss = 14.182, time = 1.419
+Epoch 8/16, Iter 1430/2215, lr 0.00100, train loss = 10.614, time = 1.273
+Epoch 8/16, Iter 1480/2215, lr 0.00100, train loss = 16.109, time = 1.367
+Epoch 8/16, Iter 1530/2215, lr 0.00100, train loss = 8.978, time = 1.474
+Epoch 8/16, Iter 1580/2215, lr 0.00100, train loss = 13.394, time = 1.480
+Epoch 8/16, Iter 1630/2215, lr 0.00100, train loss = 13.445, time = 1.369
+Epoch 8/16, Iter 1680/2215, lr 0.00100, train loss = 12.855, time = 1.363
+Epoch 8/16, Iter 1730/2215, lr 0.00100, train loss = 12.478, time = 1.377
+Epoch 8/16, Iter 1780/2215, lr 0.00100, train loss = 12.608, time = 1.384
+Epoch 8/16, Iter 1830/2215, lr 0.00100, train loss = 14.635, time = 1.270
+Epoch 8/16, Iter 1880/2215, lr 0.00100, train loss = 11.251, time = 1.428
+Epoch 8/16, Iter 1930/2215, lr 0.00100, train loss = 12.063, time = 1.457
+Epoch 8/16, Iter 1980/2215, lr 0.00100, train loss = 9.082, time = 1.549
+Epoch 8/16, Iter 2030/2215, lr 0.00100, train loss = 16.016, time = 1.429
+Epoch 8/16, Iter 2080/2215, lr 0.00100, train loss = 9.720, time = 1.372
+Epoch 8/16, Iter 2130/2215, lr 0.00100, train loss = 12.567, time = 1.515
+Epoch 8/16, Iter 2180/2215, lr 0.00100, train loss = 9.169, time = 1.337
+Epoch 8/16, Iter 24/547, test loss = 0.000, time = 0.583899
+Epoch 8/16, Iter 74/547, test loss = 0.000, time = 0.498785
+Epoch 8/16, Iter 124/547, test loss = 0.000, time = 0.537254
+Epoch 8/16, Iter 174/547, test loss = 0.000, time = 0.524379
+Epoch 8/16, Iter 224/547, test loss = 0.000, time = 0.570261
+Epoch 8/16, Iter 274/547, test loss = 0.000, time = 0.539446
+Epoch 8/16, Iter 324/547, test loss = 0.000, time = 0.548743
+Epoch 8/16, Iter 374/547, test loss = 0.000, time = 0.477252
+Epoch 8/16, Iter 424/547, test loss = 0.000, time = 0.546947
+Epoch 8/16, Iter 474/547, test loss = 0.000, time = 0.509715
+Epoch 8/16, Iter 524/547, test loss = 0.000, time = 0.523953
+avg_test_scalars {'loss': 0.0, 'D1': [0.10214168689395871], 'EPE': [2.062037591197591], 'Thres1': [0.32996067575007076], 'Thres2': [0.1842336993071998], 'Thres3': [0.12682689484583395]}
+Epoch 9/16, Iter 15/2215, lr 0.00100, train loss = 9.977, time = 1.427
+Epoch 9/16, Iter 65/2215, lr 0.00100, train loss = 9.059, time = 1.209
+Epoch 9/16, Iter 115/2215, lr 0.00100, train loss = 13.412, time = 1.328
+Epoch 9/16, Iter 165/2215, lr 0.00100, train loss = 11.324, time = 1.419
+Epoch 9/16, Iter 215/2215, lr 0.00100, train loss = 15.843, time = 1.358
+Epoch 9/16, Iter 265/2215, lr 0.00100, train loss = 10.754, time = 1.390
+Epoch 9/16, Iter 315/2215, lr 0.00100, train loss = 14.617, time = 1.390
+Epoch 9/16, Iter 365/2215, lr 0.00100, train loss = 11.687, time = 1.303
+Epoch 9/16, Iter 415/2215, lr 0.00100, train loss = 12.903, time = 1.469
+Epoch 9/16, Iter 465/2215, lr 0.00100, train loss = 16.216, time = 1.418
+Epoch 9/16, Iter 515/2215, lr 0.00100, train loss = 18.941, time = 1.317
+Epoch 9/16, Iter 565/2215, lr 0.00100, train loss = 11.623, time = 1.446
+Epoch 9/16, Iter 615/2215, lr 0.00100, train loss = 12.005, time = 1.349
+Epoch 9/16, Iter 665/2215, lr 0.00100, train loss = 10.183, time = 1.439
+Epoch 9/16, Iter 715/2215, lr 0.00100, train loss = 16.971, time = 1.480
+Epoch 9/16, Iter 765/2215, lr 0.00100, train loss = 6.486, time = 1.219
+Epoch 9/16, Iter 815/2215, lr 0.00100, train loss = 17.744, time = 1.407
+Epoch 9/16, Iter 865/2215, lr 0.00100, train loss = 9.913, time = 1.391
+Epoch 9/16, Iter 915/2215, lr 0.00100, train loss = 10.884, time = 1.322
+Epoch 9/16, Iter 965/2215, lr 0.00100, train loss = 6.524, time = 1.369
+Epoch 9/16, Iter 1015/2215, lr 0.00100, train loss = 8.902, time = 1.387
+Epoch 9/16, Iter 1065/2215, lr 0.00100, train loss = 13.967, time = 1.434
+Epoch 9/16, Iter 1115/2215, lr 0.00100, train loss = 11.339, time = 1.389
+Epoch 9/16, Iter 1165/2215, lr 0.00100, train loss = 10.241, time = 1.342
+Epoch 9/16, Iter 1215/2215, lr 0.00100, train loss = 11.646, time = 1.400
+Epoch 9/16, Iter 1265/2215, lr 0.00100, train loss = 14.191, time = 1.477
+Epoch 9/16, Iter 1315/2215, lr 0.00100, train loss = 10.954, time = 1.335
+Epoch 9/16, Iter 1365/2215, lr 0.00100, train loss = 7.337, time = 1.317
+Epoch 9/16, Iter 1415/2215, lr 0.00100, train loss = 12.396, time = 1.408
+Epoch 9/16, Iter 1465/2215, lr 0.00100, train loss = 17.014, time = 1.372
+Epoch 9/16, Iter 1515/2215, lr 0.00100, train loss = 11.106, time = 1.329
+Epoch 9/16, Iter 1565/2215, lr 0.00100, train loss = 16.675, time = 1.320
+Epoch 9/16, Iter 1615/2215, lr 0.00100, train loss = 12.159, time = 1.245
+Epoch 9/16, Iter 1665/2215, lr 0.00100, train loss = 7.570, time = 1.390
+Epoch 9/16, Iter 1715/2215, lr 0.00100, train loss = 21.083, time = 1.356
+Epoch 9/16, Iter 1765/2215, lr 0.00100, train loss = 12.708, time = 1.428
+Epoch 9/16, Iter 1815/2215, lr 0.00100, train loss = 9.700, time = 1.521
+Epoch 9/16, Iter 1865/2215, lr 0.00100, train loss = 10.444, time = 1.378
+Epoch 9/16, Iter 1915/2215, lr 0.00100, train loss = 10.586, time = 1.328
+Epoch 9/16, Iter 1965/2215, lr 0.00100, train loss = 10.086, time = 1.362
+Epoch 9/16, Iter 2015/2215, lr 0.00100, train loss = 12.907, time = 1.204
+Epoch 9/16, Iter 2065/2215, lr 0.00100, train loss = 10.100, time = 1.225
+Epoch 9/16, Iter 2115/2215, lr 0.00100, train loss = 9.817, time = 1.113
+Epoch 9/16, Iter 2165/2215, lr 0.00100, train loss = 9.925, time = 1.167
+Epoch 9/16, Iter 27/547, test loss = 0.000, time = 0.551450
+Epoch 9/16, Iter 77/547, test loss = 0.000, time = 0.531414
+Epoch 9/16, Iter 127/547, test loss = 0.000, time = 0.570839
+Epoch 9/16, Iter 177/547, test loss = 0.000, time = 0.548686
+Epoch 9/16, Iter 227/547, test loss = 0.000, time = 0.524444
+Epoch 9/16, Iter 277/547, test loss = 0.000, time = 0.528269
+Epoch 9/16, Iter 327/547, test loss = 0.000, time = 0.553571
+Epoch 9/16, Iter 377/547, test loss = 0.000, time = 0.528248
+Epoch 9/16, Iter 427/547, test loss = 0.000, time = 0.474395
+Epoch 9/16, Iter 477/547, test loss = 0.000, time = 0.519895
+Epoch 9/16, Iter 527/547, test loss = 0.000, time = 0.537153
+avg_test_scalars {'loss': 0.0, 'D1': [0.17981900852275723], 'EPE': [2.858533688175613], 'Thres1': [0.43792402567222743], 'Thres2': [0.28048034968498203], 'Thres3': [0.2058103957249216]}
+Epoch 10/16, Iter 0/2215, lr 0.00050, train loss = 10.800, time = 1.465
+Epoch 10/16, Iter 50/2215, lr 0.00050, train loss = 10.232, time = 1.088
+Epoch 10/16, Iter 100/2215, lr 0.00050, train loss = 14.103, time = 1.361
+Epoch 10/16, Iter 150/2215, lr 0.00050, train loss = 11.328, time = 1.208
+Epoch 10/16, Iter 200/2215, lr 0.00050, train loss = 11.871, time = 1.274
+Epoch 10/16, Iter 250/2215, lr 0.00050, train loss = 11.151, time = 1.162
+Epoch 10/16, Iter 300/2215, lr 0.00050, train loss = 14.004, time = 1.406
+Epoch 10/16, Iter 350/2215, lr 0.00050, train loss = 10.491, time = 1.302
+Epoch 10/16, Iter 400/2215, lr 0.00050, train loss = 8.328, time = 1.179
+Epoch 10/16, Iter 450/2215, lr 0.00050, train loss = 14.730, time = 1.377
+Epoch 10/16, Iter 500/2215, lr 0.00050, train loss = 10.571, time = 1.129
+Epoch 10/16, Iter 550/2215, lr 0.00050, train loss = 12.193, time = 1.485
+Epoch 10/16, Iter 600/2215, lr 0.00050, train loss = 14.479, time = 1.206
+Epoch 10/16, Iter 650/2215, lr 0.00050, train loss = 8.165, time = 1.242
+Epoch 10/16, Iter 700/2215, lr 0.00050, train loss = 8.549, time = 1.339
+Epoch 10/16, Iter 750/2215, lr 0.00050, train loss = 12.854, time = 1.442
+Epoch 10/16, Iter 800/2215, lr 0.00050, train loss = 10.299, time = 1.457
+Epoch 10/16, Iter 850/2215, lr 0.00050, train loss = 8.795, time = 1.394
+Epoch 10/16, Iter 900/2215, lr 0.00050, train loss = 10.042, time = 1.424
+Epoch 10/16, Iter 950/2215, lr 0.00050, train loss = 15.765, time = 1.454
+Epoch 10/16, Iter 1000/2215, lr 0.00050, train loss = 11.824, time = 1.450
+Epoch 10/16, Iter 1050/2215, lr 0.00050, train loss = 7.780, time = 1.316
+Epoch 10/16, Iter 1100/2215, lr 0.00050, train loss = 7.807, time = 1.333
+Epoch 10/16, Iter 1150/2215, lr 0.00050, train loss = 8.092, time = 1.456
+Epoch 10/16, Iter 1200/2215, lr 0.00050, train loss = 9.950, time = 1.409
+Epoch 10/16, Iter 1250/2215, lr 0.00050, train loss = 6.669, time = 1.207
+Epoch 10/16, Iter 1300/2215, lr 0.00050, train loss = 5.396, time = 1.136
+Epoch 10/16, Iter 1350/2215, lr 0.00050, train loss = 16.307, time = 1.106
+Epoch 10/16, Iter 1400/2215, lr 0.00050, train loss = 8.084, time = 1.198
+Epoch 10/16, Iter 1450/2215, lr 0.00050, train loss = 14.290, time = 1.192
+Epoch 10/16, Iter 1500/2215, lr 0.00050, train loss = 7.774, time = 1.416
+Epoch 10/16, Iter 1550/2215, lr 0.00050, train loss = 16.963, time = 1.049
+Epoch 10/16, Iter 1600/2215, lr 0.00050, train loss = 7.654, time = 1.311
+Epoch 10/16, Iter 1650/2215, lr 0.00050, train loss = 8.746, time = 1.265
+Epoch 10/16, Iter 1700/2215, lr 0.00050, train loss = 7.177, time = 1.177
+Epoch 10/16, Iter 1750/2215, lr 0.00050, train loss = 9.671, time = 1.209
+Epoch 10/16, Iter 1800/2215, lr 0.00050, train loss = 18.428, time = 1.279
+Epoch 10/16, Iter 1850/2215, lr 0.00050, train loss = 8.650, time = 1.101
+Epoch 10/16, Iter 1900/2215, lr 0.00050, train loss = 6.868, time = 1.141
+Epoch 10/16, Iter 1950/2215, lr 0.00050, train loss = 7.805, time = 1.176
+Epoch 10/16, Iter 2000/2215, lr 0.00050, train loss = 11.047, time = 1.175
+Epoch 10/16, Iter 2050/2215, lr 0.00050, train loss = 10.314, time = 1.089
+Epoch 10/16, Iter 2100/2215, lr 0.00050, train loss = 13.243, time = 1.188
+Epoch 10/16, Iter 2150/2215, lr 0.00050, train loss = 11.305, time = 1.435
+Epoch 10/16, Iter 2200/2215, lr 0.00050, train loss = 13.159, time = 1.191
+Epoch 10/16, Iter 30/547, test loss = 0.000, time = 0.558604
+Epoch 10/16, Iter 80/547, test loss = 0.000, time = 0.524295
+Epoch 10/16, Iter 130/547, test loss = 0.000, time = 0.534618
+Epoch 10/16, Iter 180/547, test loss = 0.000, time = 0.504958
+Epoch 10/16, Iter 230/547, test loss = 0.000, time = 0.491819
+Epoch 10/16, Iter 280/547, test loss = 0.000, time = 0.588047
+Epoch 10/16, Iter 330/547, test loss = 0.000, time = 0.530170
+Epoch 10/16, Iter 380/547, test loss = 0.000, time = 0.457757
+Epoch 10/16, Iter 430/547, test loss = 0.000, time = 0.507326
+Epoch 10/16, Iter 480/547, test loss = 0.000, time = 0.450721
+Epoch 10/16, Iter 530/547, test loss = 0.000, time = 0.444252
+avg_test_scalars {'loss': 0.0, 'D1': [0.06390948048784266], 'EPE': [1.5255181802474167], 'Thres1': [0.19258534833380248], 'Thres2': [0.10372663127561482], 'Thres3': [0.07452572950960513]}
+Best Checkpoint epoch_idx:10
+Epoch 11/16, Iter 35/2215, lr 0.00050, train loss = 9.205, time = 1.432
+Epoch 11/16, Iter 85/2215, lr 0.00050, train loss = 11.691, time = 1.344
+Epoch 11/16, Iter 135/2215, lr 0.00050, train loss = 12.883, time = 1.243
+Epoch 11/16, Iter 185/2215, lr 0.00050, train loss = 10.155, time = 1.289
+Epoch 11/16, Iter 235/2215, lr 0.00050, train loss = 11.835, time = 1.174
+Epoch 11/16, Iter 285/2215, lr 0.00050, train loss = 12.073, time = 1.373
+Epoch 11/16, Iter 335/2215, lr 0.00050, train loss = 11.512, time = 1.406
+Epoch 11/16, Iter 385/2215, lr 0.00050, train loss = 13.939, time = 1.410
+Epoch 11/16, Iter 435/2215, lr 0.00050, train loss = 9.576, time = 1.458
+Epoch 11/16, Iter 485/2215, lr 0.00050, train loss = 7.726, time = 1.288
+Epoch 11/16, Iter 535/2215, lr 0.00050, train loss = 9.108, time = 1.033
+Epoch 11/16, Iter 585/2215, lr 0.00050, train loss = 16.359, time = 1.220
+Epoch 11/16, Iter 635/2215, lr 0.00050, train loss = 6.773, time = 1.307
+Epoch 11/16, Iter 685/2215, lr 0.00050, train loss = 15.477, time = 1.245
+Epoch 11/16, Iter 735/2215, lr 0.00050, train loss = 9.385, time = 1.440
+Epoch 11/16, Iter 785/2215, lr 0.00050, train loss = 11.047, time = 1.423
+Epoch 11/16, Iter 835/2215, lr 0.00050, train loss = 8.440, time = 1.365
+Epoch 11/16, Iter 885/2215, lr 0.00050, train loss = 14.542, time = 1.250
+Epoch 11/16, Iter 935/2215, lr 0.00050, train loss = 9.094, time = 1.179
+Epoch 11/16, Iter 985/2215, lr 0.00050, train loss = 9.129, time = 1.165
+Epoch 11/16, Iter 1035/2215, lr 0.00050, train loss = 8.489, time = 1.205
+Epoch 11/16, Iter 1085/2215, lr 0.00050, train loss = 9.585, time = 1.489
+Epoch 11/16, Iter 1135/2215, lr 0.00050, train loss = 10.848, time = 1.499
+Epoch 11/16, Iter 1185/2215, lr 0.00050, train loss = 7.639, time = 1.467
+Epoch 11/16, Iter 1235/2215, lr 0.00050, train loss = 10.834, time = 1.502
+Epoch 11/16, Iter 1285/2215, lr 0.00050, train loss = 8.528, time = 1.171
+Epoch 11/16, Iter 1335/2215, lr 0.00050, train loss = 12.828, time = 1.114
+Epoch 11/16, Iter 1385/2215, lr 0.00050, train loss = 10.765, time = 1.114
+Epoch 11/16, Iter 1435/2215, lr 0.00050, train loss = 9.293, time = 1.127
+Epoch 11/16, Iter 1485/2215, lr 0.00050, train loss = 9.538, time = 1.512
+Epoch 11/16, Iter 1535/2215, lr 0.00050, train loss = 9.965, time = 1.064
+Epoch 11/16, Iter 1585/2215, lr 0.00050, train loss = 12.398, time = 1.095
+Epoch 11/16, Iter 1635/2215, lr 0.00050, train loss = 8.165, time = 1.148
+Epoch 11/16, Iter 1685/2215, lr 0.00050, train loss = 9.196, time = 1.430
+Epoch 11/16, Iter 1735/2215, lr 0.00050, train loss = 10.686, time = 1.118
+Epoch 11/16, Iter 1785/2215, lr 0.00050, train loss = 12.088, time = 1.201
+Epoch 11/16, Iter 1835/2215, lr 0.00050, train loss = 8.470, time = 1.352
+Epoch 11/16, Iter 1885/2215, lr 0.00050, train loss = 10.835, time = 1.083
+Epoch 11/16, Iter 1935/2215, lr 0.00050, train loss = 13.203, time = 1.136
+Epoch 11/16, Iter 1985/2215, lr 0.00050, train loss = 14.123, time = 1.220
+Epoch 11/16, Iter 2035/2215, lr 0.00050, train loss = 9.202, time = 1.130
+Epoch 11/16, Iter 2085/2215, lr 0.00050, train loss = 7.875, time = 1.190
+Epoch 11/16, Iter 2135/2215, lr 0.00050, train loss = 7.371, time = 1.127
+Epoch 11/16, Iter 2185/2215, lr 0.00050, train loss = 10.436, time = 1.247
+Epoch 11/16, Iter 33/547, test loss = 0.000, time = 0.607240
+Epoch 11/16, Iter 83/547, test loss = 0.000, time = 0.487234
+Epoch 11/16, Iter 133/547, test loss = 0.000, time = 0.566740
+Epoch 11/16, Iter 183/547, test loss = 0.000, time = 0.548603
+Epoch 11/16, Iter 233/547, test loss = 0.000, time = 0.522856
+Epoch 11/16, Iter 283/547, test loss = 0.000, time = 0.515908
+Epoch 11/16, Iter 333/547, test loss = 0.000, time = 0.539999
+Epoch 11/16, Iter 383/547, test loss = 0.000, time = 0.474554
+Epoch 11/16, Iter 433/547, test loss = 0.000, time = 0.481163
+Epoch 11/16, Iter 483/547, test loss = 0.000, time = 0.482255
+Epoch 11/16, Iter 533/547, test loss = 0.000, time = 0.551207
+avg_test_scalars {'loss': 0.0, 'D1': [0.06240706925213991], 'EPE': [1.5136574476793871], 'Thres1': [0.19816410151979388], 'Thres2': [0.10500423495455133], 'Thres3': [0.07426200752441092]}
+Best Checkpoint epoch_idx:11
+Epoch 12/16, Iter 20/2215, lr 0.00025, train loss = 11.110, time = 1.288
+Epoch 12/16, Iter 70/2215, lr 0.00025, train loss = 11.961, time = 1.151
+Epoch 12/16, Iter 120/2215, lr 0.00025, train loss = 7.879, time = 1.090
+Epoch 12/16, Iter 170/2215, lr 0.00025, train loss = 12.849, time = 1.187
+Epoch 12/16, Iter 220/2215, lr 0.00025, train loss = 12.893, time = 1.329
+Epoch 12/16, Iter 270/2215, lr 0.00025, train loss = 11.185, time = 1.337
+Epoch 12/16, Iter 320/2215, lr 0.00025, train loss = 13.088, time = 1.261
+Epoch 12/16, Iter 370/2215, lr 0.00025, train loss = 9.785, time = 1.178
+Epoch 12/16, Iter 420/2215, lr 0.00025, train loss = 8.704, time = 1.199
+Epoch 12/16, Iter 470/2215, lr 0.00025, train loss = 10.660, time = 1.199
+Epoch 12/16, Iter 520/2215, lr 0.00025, train loss = 10.802, time = 1.235
+Epoch 12/16, Iter 570/2215, lr 0.00025, train loss = 9.939, time = 1.458
+Epoch 12/16, Iter 620/2215, lr 0.00025, train loss = 8.310, time = 1.447
+Epoch 12/16, Iter 670/2215, lr 0.00025, train loss = 14.868, time = 1.160
+Epoch 12/16, Iter 720/2215, lr 0.00025, train loss = 15.837, time = 1.241
+Epoch 12/16, Iter 770/2215, lr 0.00025, train loss = 8.722, time = 1.134
+Epoch 12/16, Iter 820/2215, lr 0.00025, train loss = 9.721, time = 1.407
+Epoch 12/16, Iter 870/2215, lr 0.00025, train loss = 9.579, time = 1.140
+Epoch 12/16, Iter 920/2215, lr 0.00025, train loss = 11.320, time = 1.226
+Epoch 12/16, Iter 970/2215, lr 0.00025, train loss = 8.670, time = 1.077
+Epoch 12/16, Iter 1020/2215, lr 0.00025, train loss = 9.351, time = 1.047
+Epoch 12/16, Iter 1070/2215, lr 0.00025, train loss = 8.604, time = 1.109
+Epoch 12/16, Iter 1120/2215, lr 0.00025, train loss = 9.847, time = 1.401
+Epoch 12/16, Iter 1170/2215, lr 0.00025, train loss = 11.341, time = 1.073
+Epoch 12/16, Iter 1220/2215, lr 0.00025, train loss = 7.106, time = 1.047
+Epoch 12/16, Iter 1270/2215, lr 0.00025, train loss = 13.936, time = 1.194
+Epoch 12/16, Iter 1320/2215, lr 0.00025, train loss = 7.406, time = 1.203
+Epoch 12/16, Iter 1370/2215, lr 0.00025, train loss = 9.200, time = 1.130
+Epoch 12/16, Iter 1420/2215, lr 0.00025, train loss = 9.895, time = 1.202
+Epoch 12/16, Iter 1470/2215, lr 0.00025, train loss = 11.438, time = 1.164
+Epoch 12/16, Iter 1520/2215, lr 0.00025, train loss = 11.356, time = 1.131
+Epoch 12/16, Iter 1570/2215, lr 0.00025, train loss = 8.803, time = 1.181
+Epoch 12/16, Iter 1620/2215, lr 0.00025, train loss = 10.697, time = 1.159
+Epoch 12/16, Iter 1670/2215, lr 0.00025, train loss = 9.524, time = 1.179
+Epoch 12/16, Iter 1720/2215, lr 0.00025, train loss = 9.109, time = 1.240
+Epoch 12/16, Iter 1770/2215, lr 0.00025, train loss = 7.438, time = 1.136
+Epoch 12/16, Iter 1820/2215, lr 0.00025, train loss = 12.203, time = 1.171
+Epoch 12/16, Iter 1870/2215, lr 0.00025, train loss = 13.213, time = 1.427
+Epoch 12/16, Iter 1920/2215, lr 0.00025, train loss = 9.326, time = 1.164
+Epoch 12/16, Iter 1970/2215, lr 0.00025, train loss = 6.913, time = 1.143
+Epoch 12/16, Iter 2020/2215, lr 0.00025, train loss = 12.907, time = 1.181
+Epoch 12/16, Iter 2070/2215, lr 0.00025, train loss = 9.113, time = 1.201
+Epoch 12/16, Iter 2120/2215, lr 0.00025, train loss = 11.567, time = 1.166
+Epoch 12/16, Iter 2170/2215, lr 0.00025, train loss = 8.452, time = 1.235
+Epoch 12/16, Iter 36/547, test loss = 0.000, time = 0.580140
+Epoch 12/16, Iter 86/547, test loss = 0.000, time = 0.521858
+Epoch 12/16, Iter 136/547, test loss = 0.000, time = 0.558500
+Epoch 12/16, Iter 186/547, test loss = 0.000, time = 0.553850
+Epoch 12/16, Iter 236/547, test loss = 0.000, time = 0.551558
+Epoch 12/16, Iter 286/547, test loss = 0.000, time = 0.542836
+Epoch 12/16, Iter 336/547, test loss = 0.000, time = 0.553081
+Epoch 12/16, Iter 386/547, test loss = 0.000, time = 0.566878
+Epoch 12/16, Iter 436/547, test loss = 0.000, time = 0.527839
+Epoch 12/16, Iter 486/547, test loss = 0.000, time = 0.536958
+Epoch 12/16, Iter 536/547, test loss = 0.000, time = 0.606031
+avg_test_scalars {'loss': 0.0, 'D1': [0.05828505729783115], 'EPE': [1.4146983577738732], 'Thres1': [0.1806350925177935], 'Thres2': [0.09705324340237124], 'Thres3': [0.06921654248906392]}
+Best Checkpoint epoch_idx:12
+Epoch 13/16, Iter 5/2215, lr 0.00025, train loss = 11.458, time = 1.338
+Epoch 13/16, Iter 55/2215, lr 0.00025, train loss = 11.616, time = 1.417
+Epoch 13/16, Iter 105/2215, lr 0.00025, train loss = 5.525, time = 1.487
+Epoch 13/16, Iter 155/2215, lr 0.00025, train loss = 10.106, time = 1.409
+Epoch 13/16, Iter 205/2215, lr 0.00025, train loss = 9.591, time = 1.443
+Epoch 13/16, Iter 255/2215, lr 0.00025, train loss = 7.919, time = 1.414
+Epoch 13/16, Iter 305/2215, lr 0.00025, train loss = 7.236, time = 1.286
+Epoch 13/16, Iter 355/2215, lr 0.00025, train loss = 5.153, time = 1.203
+Epoch 13/16, Iter 405/2215, lr 0.00025, train loss = 12.442, time = 1.140
+Epoch 13/16, Iter 455/2215, lr 0.00025, train loss = 11.597, time = 1.091
+Epoch 13/16, Iter 505/2215, lr 0.00025, train loss = 9.729, time = 1.394
+Epoch 13/16, Iter 555/2215, lr 0.00025, train loss = 12.380, time = 1.342
+Epoch 13/16, Iter 605/2215, lr 0.00025, train loss = 10.176, time = 1.331
+Epoch 13/16, Iter 655/2215, lr 0.00025, train loss = 8.812, time = 1.135
+Epoch 13/16, Iter 705/2215, lr 0.00025, train loss = 11.198, time = 1.199
+Epoch 13/16, Iter 755/2215, lr 0.00025, train loss = 11.171, time = 1.097
+Epoch 13/16, Iter 805/2215, lr 0.00025, train loss = 16.148, time = 1.249
+Epoch 13/16, Iter 855/2215, lr 0.00025, train loss = 10.645, time = 1.230
+Epoch 13/16, Iter 905/2215, lr 0.00025, train loss = 11.348, time = 1.213
+Epoch 13/16, Iter 955/2215, lr 0.00025, train loss = 6.496, time = 1.336
+Epoch 13/16, Iter 1005/2215, lr 0.00025, train loss = 14.983, time = 1.416
+Epoch 13/16, Iter 1055/2215, lr 0.00025, train loss = 13.498, time = 1.280
+Epoch 13/16, Iter 1105/2215, lr 0.00025, train loss = 10.302, time = 1.214
+Epoch 13/16, Iter 1155/2215, lr 0.00025, train loss = 9.473, time = 1.100
+Epoch 13/16, Iter 1205/2215, lr 0.00025, train loss = 7.805, time = 1.519
+Epoch 13/16, Iter 1255/2215, lr 0.00025, train loss = 8.023, time = 1.123
+Epoch 13/16, Iter 1305/2215, lr 0.00025, train loss = 11.856, time = 1.486
+Epoch 13/16, Iter 1355/2215, lr 0.00025, train loss = 8.011, time = 1.364
+Epoch 13/16, Iter 1405/2215, lr 0.00025, train loss = 10.855, time = 1.462
+Epoch 13/16, Iter 1455/2215, lr 0.00025, train loss = 8.342, time = 1.342
+Epoch 13/16, Iter 1505/2215, lr 0.00025, train loss = 15.167, time = 1.366
+Epoch 13/16, Iter 1555/2215, lr 0.00025, train loss = 11.242, time = 1.017
+Epoch 13/16, Iter 1605/2215, lr 0.00025, train loss = 9.196, time = 1.193
+Epoch 13/16, Iter 1655/2215, lr 0.00025, train loss = 16.919, time = 1.134
+Epoch 13/16, Iter 1705/2215, lr 0.00025, train loss = 11.885, time = 1.194
+Epoch 13/16, Iter 1755/2215, lr 0.00025, train loss = 7.838, time = 1.303
+Epoch 13/16, Iter 1805/2215, lr 0.00025, train loss = 8.521, time = 1.159
+Epoch 13/16, Iter 1855/2215, lr 0.00025, train loss = 9.095, time = 1.145
+Epoch 13/16, Iter 1905/2215, lr 0.00025, train loss = 7.521, time = 1.243
+Epoch 13/16, Iter 1955/2215, lr 0.00025, train loss = 8.540, time = 1.151
+Epoch 13/16, Iter 2005/2215, lr 0.00025, train loss = 15.745, time = 1.134
+Epoch 13/16, Iter 2055/2215, lr 0.00025, train loss = 8.396, time = 1.203
+Epoch 13/16, Iter 2105/2215, lr 0.00025, train loss = 7.999, time = 1.470
+Epoch 13/16, Iter 2155/2215, lr 0.00025, train loss = 5.995, time = 1.424
+Epoch 13/16, Iter 2205/2215, lr 0.00025, train loss = 10.975, time = 1.470
+Epoch 13/16, Iter 39/547, test loss = 0.000, time = 0.587964
+Epoch 13/16, Iter 89/547, test loss = 0.000, time = 0.527727
+Epoch 13/16, Iter 139/547, test loss = 0.000, time = 0.450545
+Epoch 13/16, Iter 189/547, test loss = 0.000, time = 0.470509
+Epoch 13/16, Iter 239/547, test loss = 0.000, time = 0.500093
+Epoch 13/16, Iter 289/547, test loss = 0.000, time = 0.576947
+Epoch 13/16, Iter 339/547, test loss = 0.000, time = 0.488402
+Epoch 13/16, Iter 389/547, test loss = 0.000, time = 0.455441
+Epoch 13/16, Iter 439/547, test loss = 0.000, time = 0.540526
+Epoch 13/16, Iter 489/547, test loss = 0.000, time = 0.690592
+Epoch 13/16, Iter 539/547, test loss = 0.000, time = 0.534788
+avg_test_scalars {'loss': 0.0, 'D1': [0.06191175755188278], 'EPE': [1.4781914197548651], 'Thres1': [0.20173595789854007], 'Thres2': [0.10548234231756418], 'Thres3': [0.0740938502835481]}
+Epoch 14/16, Iter 40/2215, lr 0.00013, train loss = 7.234, time = 1.417
+Epoch 14/16, Iter 90/2215, lr 0.00013, train loss = 11.096, time = 1.344
+Epoch 14/16, Iter 140/2215, lr 0.00013, train loss = 15.156, time = 1.250
+Epoch 14/16, Iter 190/2215, lr 0.00013, train loss = 12.543, time = 1.461
+Epoch 14/16, Iter 240/2215, lr 0.00013, train loss = 7.080, time = 1.459
+Epoch 14/16, Iter 290/2215, lr 0.00013, train loss = 10.543, time = 1.419
+Epoch 14/16, Iter 340/2215, lr 0.00013, train loss = 10.998, time = 1.300
+Epoch 14/16, Iter 390/2215, lr 0.00013, train loss = 6.756, time = 1.479
+Epoch 14/16, Iter 440/2215, lr 0.00013, train loss = 7.674, time = 1.340
+Epoch 14/16, Iter 490/2215, lr 0.00013, train loss = 9.651, time = 1.472
+Epoch 14/16, Iter 540/2215, lr 0.00013, train loss = 16.774, time = 1.265
+Epoch 14/16, Iter 590/2215, lr 0.00013, train loss = 9.601, time = 1.406
+Epoch 14/16, Iter 640/2215, lr 0.00013, train loss = 10.040, time = 1.412
+Epoch 14/16, Iter 690/2215, lr 0.00013, train loss = 8.879, time = 1.395
+Epoch 14/16, Iter 740/2215, lr 0.00013, train loss = 10.777, time = 1.497
+Epoch 14/16, Iter 790/2215, lr 0.00013, train loss = 9.972, time = 1.322
+Epoch 14/16, Iter 840/2215, lr 0.00013, train loss = 10.074, time = 1.404
+Epoch 14/16, Iter 890/2215, lr 0.00013, train loss = 6.011, time = 1.453
+Epoch 14/16, Iter 940/2215, lr 0.00013, train loss = 9.196, time = 1.305
+Epoch 14/16, Iter 990/2215, lr 0.00013, train loss = 9.121, time = 1.512
+Epoch 14/16, Iter 1040/2215, lr 0.00013, train loss = 10.080, time = 1.426
+Epoch 14/16, Iter 1090/2215, lr 0.00013, train loss = 7.109, time = 1.448
+Epoch 14/16, Iter 1140/2215, lr 0.00013, train loss = 9.584, time = 1.244
+Epoch 14/16, Iter 1190/2215, lr 0.00013, train loss = 9.037, time = 1.080
+Epoch 14/16, Iter 1240/2215, lr 0.00013, train loss = 6.621, time = 1.538
+Epoch 14/16, Iter 1290/2215, lr 0.00013, train loss = 5.554, time = 1.380
+Epoch 14/16, Iter 1340/2215, lr 0.00013, train loss = 7.659, time = 1.467
+Epoch 14/16, Iter 1390/2215, lr 0.00013, train loss = 6.355, time = 1.235
+Epoch 14/16, Iter 1440/2215, lr 0.00013, train loss = 12.853, time = 1.374
+Epoch 14/16, Iter 1490/2215, lr 0.00013, train loss = 5.685, time = 1.461
+Epoch 14/16, Iter 1540/2215, lr 0.00013, train loss = 6.727, time = 1.430
+Epoch 14/16, Iter 1590/2215, lr 0.00013, train loss = 9.660, time = 1.243
+Epoch 14/16, Iter 1640/2215, lr 0.00013, train loss = 9.220, time = 1.438
+Epoch 14/16, Iter 1690/2215, lr 0.00013, train loss = 11.274, time = 1.219
+Epoch 14/16, Iter 1740/2215, lr 0.00013, train loss = 11.137, time = 1.369
+Epoch 14/16, Iter 1790/2215, lr 0.00013, train loss = 8.155, time = 1.040
+Epoch 14/16, Iter 1840/2215, lr 0.00013, train loss = 9.572, time = 1.189
+Epoch 14/16, Iter 1890/2215, lr 0.00013, train loss = 7.815, time = 1.445
+Epoch 14/16, Iter 1940/2215, lr 0.00013, train loss = 7.177, time = 1.526
+Epoch 14/16, Iter 1990/2215, lr 0.00013, train loss = 10.375, time = 1.304
+Epoch 14/16, Iter 2040/2215, lr 0.00013, train loss = 10.987, time = 1.599
+Epoch 14/16, Iter 2090/2215, lr 0.00013, train loss = 7.916, time = 1.425
+Epoch 14/16, Iter 2140/2215, lr 0.00013, train loss = 7.949, time = 1.312
+Epoch 14/16, Iter 2190/2215, lr 0.00013, train loss = 9.077, time = 1.348
+Epoch 14/16, Iter 42/547, test loss = 0.000, time = 0.522482
+Epoch 14/16, Iter 92/547, test loss = 0.000, time = 0.533513
+Epoch 14/16, Iter 142/547, test loss = 0.000, time = 0.447150
+Epoch 14/16, Iter 192/547, test loss = 0.000, time = 0.519265
+Epoch 14/16, Iter 242/547, test loss = 0.000, time = 0.485824
+Epoch 14/16, Iter 292/547, test loss = 0.000, time = 0.441684
+Epoch 14/16, Iter 342/547, test loss = 0.000, time = 0.520987
+Epoch 14/16, Iter 392/547, test loss = 0.000, time = 0.506403
+Epoch 14/16, Iter 442/547, test loss = 0.000, time = 0.574218
+Epoch 14/16, Iter 492/547, test loss = 0.000, time = 0.558561
+Epoch 14/16, Iter 542/547, test loss = 0.000, time = 0.565634
+avg_test_scalars {'loss': 0.0, 'D1': [0.05682909396737541], 'EPE': [1.3670715834584488], 'Thres1': [0.1788410122490997], 'Thres2': [0.09514409031589571], 'Thres3': [0.06766271793625744]}
+Best Checkpoint epoch_idx:14
+Epoch 15/16, Iter 25/2215, lr 0.00013, train loss = 10.845, time = 1.546
+Epoch 15/16, Iter 75/2215, lr 0.00013, train loss = 5.682, time = 1.349
+Epoch 15/16, Iter 125/2215, lr 0.00013, train loss = 5.143, time = 1.251
+Epoch 15/16, Iter 175/2215, lr 0.00013, train loss = 9.655, time = 1.373
+Epoch 15/16, Iter 225/2215, lr 0.00013, train loss = 10.206, time = 1.450
+Epoch 15/16, Iter 275/2215, lr 0.00013, train loss = 8.132, time = 1.335
+Epoch 15/16, Iter 325/2215, lr 0.00013, train loss = 8.895, time = 1.464
+Epoch 15/16, Iter 375/2215, lr 0.00013, train loss = 11.416, time = 1.371
+Epoch 15/16, Iter 425/2215, lr 0.00013, train loss = 13.555, time = 1.396
+Epoch 15/16, Iter 475/2215, lr 0.00013, train loss = 8.849, time = 1.355
+Epoch 15/16, Iter 525/2215, lr 0.00013, train loss = 7.530, time = 1.366
+Epoch 15/16, Iter 575/2215, lr 0.00013, train loss = 11.959, time = 1.328
+Epoch 15/16, Iter 625/2215, lr 0.00013, train loss = 9.497, time = 1.285
+Epoch 15/16, Iter 675/2215, lr 0.00013, train loss = 6.740, time = 1.394
+Epoch 15/16, Iter 725/2215, lr 0.00013, train loss = 5.776, time = 1.370
+Epoch 15/16, Iter 775/2215, lr 0.00013, train loss = 11.107, time = 1.300
+Epoch 15/16, Iter 825/2215, lr 0.00013, train loss = 10.051, time = 1.193
+Epoch 15/16, Iter 875/2215, lr 0.00013, train loss = 10.867, time = 1.477
+Epoch 15/16, Iter 925/2215, lr 0.00013, train loss = 12.329, time = 1.455
+Epoch 15/16, Iter 975/2215, lr 0.00013, train loss = 5.705, time = 1.402
+Epoch 15/16, Iter 1025/2215, lr 0.00013, train loss = 5.676, time = 1.365
+Epoch 15/16, Iter 1075/2215, lr 0.00013, train loss = 12.642, time = 1.425
+Epoch 15/16, Iter 1125/2215, lr 0.00013, train loss = 7.641, time = 1.387
+Epoch 15/16, Iter 1175/2215, lr 0.00013, train loss = 11.076, time = 1.515
+Epoch 15/16, Iter 1225/2215, lr 0.00013, train loss = 6.844, time = 1.294
+Epoch 15/16, Iter 1275/2215, lr 0.00013, train loss = 9.776, time = 1.351
+Epoch 15/16, Iter 1325/2215, lr 0.00013, train loss = 9.376, time = 1.408
+Epoch 15/16, Iter 1375/2215, lr 0.00013, train loss = 11.145, time = 1.494
+Epoch 15/16, Iter 1425/2215, lr 0.00013, train loss = 14.757, time = 1.411
+Epoch 15/16, Iter 1475/2215, lr 0.00013, train loss = 5.557, time = 1.493
+Epoch 15/16, Iter 1525/2215, lr 0.00013, train loss = 9.272, time = 1.412
+Epoch 15/16, Iter 1575/2215, lr 0.00013, train loss = 10.841, time = 1.442
+Epoch 15/16, Iter 1625/2215, lr 0.00013, train loss = 9.524, time = 1.308
+Epoch 15/16, Iter 1675/2215, lr 0.00013, train loss = 8.628, time = 1.400
+Epoch 15/16, Iter 1725/2215, lr 0.00013, train loss = 11.141, time = 1.504
+Epoch 15/16, Iter 1775/2215, lr 0.00013, train loss = 11.989, time = 1.479
+Epoch 15/16, Iter 1825/2215, lr 0.00013, train loss = 12.630, time = 1.367
+Epoch 15/16, Iter 1875/2215, lr 0.00013, train loss = 10.663, time = 1.409
+Epoch 15/16, Iter 1925/2215, lr 0.00013, train loss = 13.122, time = 1.355
+Epoch 15/16, Iter 1975/2215, lr 0.00013, train loss = 7.234, time = 1.405
+Epoch 15/16, Iter 2025/2215, lr 0.00013, train loss = 10.227, time = 1.395
+Epoch 15/16, Iter 2075/2215, lr 0.00013, train loss = 5.326, time = 1.200
+Epoch 15/16, Iter 2125/2215, lr 0.00013, train loss = 8.325, time = 1.476
+Epoch 15/16, Iter 2175/2215, lr 0.00013, train loss = 8.271, time = 1.170
+Epoch 15/16, Iter 45/547, test loss = 0.000, time = 0.617016
+Epoch 15/16, Iter 95/547, test loss = 0.000, time = 0.511199
+Epoch 15/16, Iter 145/547, test loss = 0.000, time = 0.497326
+Epoch 15/16, Iter 195/547, test loss = 0.000, time = 0.550936
+Epoch 15/16, Iter 245/547, test loss = 0.000, time = 0.497095
+Epoch 15/16, Iter 295/547, test loss = 0.000, time = 0.546645
+Epoch 15/16, Iter 345/547, test loss = 0.000, time = 0.561604
+Epoch 15/16, Iter 395/547, test loss = 0.000, time = 0.509445
+Epoch 15/16, Iter 445/547, test loss = 0.000, time = 0.459908
+Epoch 15/16, Iter 495/547, test loss = 0.000, time = 0.510891
+Epoch 15/16, Iter 545/547, test loss = 0.000, time = 0.641158
+avg_test_scalars {'loss': 0.0, 'D1': [0.05503614659725911], 'EPE': [1.3238676964582865], 'Thres1': [0.16929179338748537], 'Thres2': [0.09155908794273405], 'Thres3': [0.06555999057636455]}
+Best Checkpoint epoch_idx:15
